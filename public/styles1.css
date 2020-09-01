@@ -1,0 +1,256 @@
+/* body section */
+body{
+  font-family: serif;
+  font-size: 20px;
+  color: grey;
+}
+.smart-scroll{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+.scrolled-down{
+   transform:translateY(-100%); transition: all 0.3s ease-in-out;
+}
+.scrolled-up{
+   transform:translateY(0); transition: all 0.3s ease-in-out;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Montserrat-bold';
+}
+/* header section */
+.bgcolor{
+  background-color: #333333;
+}
+.textcolor{
+  color: #fff !important;
+}
+a,
+a:focus,
+a:hover{
+  color: grey !important;
+}
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* knowus slide section */
+.Knowus{
+  background-color: orange;
+  color: white;
+}
+.Knowus .carousel-inner{
+  padding: 50px 130px;
+}
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.testimonial-image{
+  width: 100px;
+  border-radius: 100%;
+  margin: 70px;
+}
+.chandu{
+  width: 15%;
+}
+/* ---------------------------------------------------------------------------------------------------------------- */
+/* aboutus section */
+.setling{
+  color: Black;
+  padding: 20px 0;
+  font-weight: bolder;
+}
+.contents{
+  padding: 0 20%;
+}
+.contents p{
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 400;
+}
+.Aboutus{
+  padding: 20px 0;
+  background-color: #ddf3f5;
+}
+.Aboutus h1{
+  padding-top: 50px;
+  color: #cd0a0a;
+  font-weight: bolder;
+}
+.abouthr{
+  margin-top: 20px;
+  width: 5%;
+  height: 3px;
+  background-color: grey;
+}
+/* --------------------------------------------------------------------------------------------------------------------- */
+/* gallery section */
+.Gallery{
+  background-color: black;
+}
+.headline{
+  padding-bottom: 10px;
+  background-color: #fff;
+}
+.headline h1{
+  padding: 50px 0 10px 0;
+  margin-bottom: 0;
+  color: #cd0a0a;
+  font-weight: bolder;
+}
+.Gallery h3{
+  color: #fff;
+  font-weight: bolder;
+  padding-top: 10px;
+}
+.Gallery hr{
+  width: 100%;
+  height: 10px;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+.headline hr{
+  margin-top: 10px;;
+  margin-left: 47%;
+  margin-bottom: 15px;
+  width: 5%;
+  height: 3px;
+  background-color: grey;
+}
+.Gallery img{
+  width: 40%;
+}
+.Gallery .carousel-inner{
+  padding: 10px 0;
+}
+.Gallery .bgcolor{
+  background-color: #cd0a0a;
+  opacity: 40%;
+}
+/* -------------------------------------------------------------------------------------------------------------------- */
+/* Ourclass section */
+.Ourclass h1{
+  padding-top: 50px;
+  color: #cd0a0a;
+  font-weight: bolder;
+}
+.Ourclass hr{
+  margin-top: 20px;
+  width: 5%;
+  height: 3px;
+  background-color: grey;
+}
+.placing{
+  padding: 30px 0;
+  margin-left: 70px;
+}
+.btncolor{
+  color: #fff !important;
+  font-weight: bolder;
+}
+.cardgap{
+  padding: 10px 30px;
+}
+/* footer section */
+footer{
+  color: #fff;
+  background-color: black;
+  padding-bottom: 15px;
+}
+.foot{
+  padding-top: 20px;
+}
+.foot h1{
+  padding-top: 25px;
+  margin-bottom: 0;
+  color: #cd0a0a;
+  font-weight: bolder;
+}
+.foot hr{
+  margin-top: 20px;
+  margin-bottom: 40px;
+  width: 5%;
+  height: 3px;
+  background-color: grey;
+}
+.icons{
+  font-size: 50px;
+  color: #fff !important;
+  padding: 30px 30px;
+}
+.discription{
+  margin-bottom: 0;
+}
+/* mobile response section */
+@media screen and (max-width: 480px) {
+  /* knowus device mobile */
+  .Knowus .carousel-inner{
+    padding: 25px 50px;
+  }
+  .testimonial-text{
+    font-size: 0.8rem;
+    line-height: 1.5;
+  }
+  .status{
+    font-size:0.3rem;
+  }
+  /* aboutus device mobile */
+  .setling{
+    font-size: 1.2rem;
+    padding: 10px 0;
+  }
+  .contents{
+    font-size: 0.7rem;
+    padding: 0 5%;
+  }
+  .contents p{
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .Aboutus{
+    padding: 20px 0;
+  }
+  .Aboutus h1{
+    font-size: 2rem;
+  }
+  .abouthr{
+    margin-top: 10px;
+    width: 15%;
+    height: 2px;
+  }
+  /* gallery device mobile */
+  .headline{
+    padding-bottom: 5px;
+  }
+  .headline h1{
+    font-size: 2rem;
+    padding: 10px 0 5px 0;
+    margin-bottom: 0;
+  }
+  .Gallery h3{
+    color: #fff;
+    font-weight: bolder;
+    padding-top: 10px;
+  }
+  .Gallery hr{
+    width: 100%;
+    height: 10px;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  .headline hr{
+    margin: 10px 0 10px 41%;
+    width: 15%;
+    height: 2px;
+    background-color: grey;
+  }
+  .Gallery img{
+    width: 50%;
+  }
+  .Gallery .carousel-inner{
+    padding: 10px 0;
+  }
+}
